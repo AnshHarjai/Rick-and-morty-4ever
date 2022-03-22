@@ -27,10 +27,13 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-flow: column wrap;
-  color: white;
-  background: dimgrey;
+  color: black;
+  background: white;
+
   margin: 0px;
 }
+
+/* css for header */
 
 .header {
   display: flex;
@@ -79,6 +82,7 @@ body {
   font-size: 48px;
   font-weight: 900;
   max-width: 500px;
+  color: white;
 }
 
 .hero-sub-text {
@@ -111,3 +115,54 @@ a {
   font-size: 18px;
   font-weight: 100;
 }
+
+/* best-moments css start */
+
+#best-moments {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 75px 150px;
+  gap: 32px;
+}
+
+.best-heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+}
+
+.best-content {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.moment {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.moment-text {
+  text-align: center;
+  max-width: 220px;
+}
+
+#best-moments img {
+  width: 220px;
+  height: 220px;
+  border-radius: 12px;
+  border-style: solid;
+}
+
+.mid-2 {
+  background: gray;
+}
+
+/* best moment css end */
