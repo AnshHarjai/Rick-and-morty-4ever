@@ -161,8 +161,34 @@ a {
   border-style: solid;
 }
 
-.mid-2 {
-  background: gray;
-}
+
 
 /* best moment css end */
+
+/*  */
+ #quote {
+  background: #E5E7EB;
+  height: 500px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 150px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937a9;
+
+}
+
+.quote-author {
+  font-size: 18px;
+  font-weight: 700;
+  align-self: flex-end;
+  margin-right: 100px;
+  width: auto;
+}
+
