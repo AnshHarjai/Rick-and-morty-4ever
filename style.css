@@ -1,0 +1,113 @@
+/* 
+dark background color (hero and footer)
+#1F2937
+
+Hero Main text ("this website is awesome")
+48px extra-bold#F9FAF8
+
+Hero Secondary text, Header Link Text
+18px #E5E7EB
+
+Header Logo Text
+24px #F9FAF8
+
+Button color, call to action background color
+#3882F6
+
+information header text
+36px extra-bold#152937
+
+Quote section background color
+#E5E7EB
+
+Quote text
+36px light italic #1F2937 */
+
+body {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-flow: column wrap;
+  color: white;
+  background: dimgrey;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  background: #1f2937;
+  flex-flow: column wrap;
+  padding: 12px;
+}
+
+.top-bar {
+  font-size: 24px;
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 150px;
+  align-items: center;
+}
+
+.header .logo img {
+  width: 150px;
+}
+
+.top-right {
+  display: flex;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  padding: 75px 150px;
+  gap: 24px;
+  justify-content: space-around;
+}
+
+.hero {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1;
+  gap: 16px;
+}
+
+.header img {
+  width: 300px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+  max-width: 500px;
+}
+
+.hero-sub-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  max-width: 550px;
+}
+
+button {
+  background: #3882f6;
+  color: #e5e7eb;
+  width: 120px;
+  height: 38px;
+
+  /* for rounded corners */
+  border-radius: 12px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 100;
+}
