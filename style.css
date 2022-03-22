@@ -1,28 +1,3 @@
-/* 
-dark background color (hero and footer)
-#1F2937
-
-Hero Main text ("this website is awesome")
-48px extra-bold#F9FAF8
-
-Hero Secondary text, Header Link Text
-18px #E5E7EB
-
-Header Logo Text
-24px #F9FAF8
-
-Button color, call to action background color
-#3882F6
-
-information header text
-36px extra-bold#152937
-
-Quote section background color
-#E5E7EB
-
-Quote text
-36px light italic #1F2937 */
-
 body {
   font-family: Roboto, sans-serif;
   display: flex;
@@ -115,6 +90,11 @@ a {
   color: #e5e7eb;
   font-size: 18px;
   font-weight: 100;
+  border-radius: 12px;
+}
+
+a:hover {
+  box-shadow: 0 0 20px rgb(148, 148, 148);
 }
 
 /* best-moments css start */
@@ -158,17 +138,16 @@ a {
 #best-moments img {
   width: 220px;
   height: 220px;
-  border-radius: 12px;
+  border-radius: 2px;
   border-style: solid;
+  border-radius: 8px;
 }
-
-
 
 /* best moment css end */
 
 /*  */
- #quote {
-  background: #E5E7EB;
+#quote {
+  background: #e5e7eb;
   height: 500px;
   display: flex;
   flex-flow: column;
@@ -182,7 +161,6 @@ a {
   font-style: italic;
   font-weight: lighter;
   color: #1f2937a9;
-
 }
 
 .quote-author {
@@ -213,7 +191,7 @@ a {
 }
 
 .text {
-  color: #E5E7EB;
+  color: #e5e7eb;
 }
 
 .bold-text {
@@ -226,16 +204,13 @@ a {
   font-size: 14px;
 }
 
-
 #footer {
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color:#e5e7ebbd;
+  color: #e5e7ebbd;
   background-color: #1f2937;
   font-size: 14px;
   font-weight: lighter;
 }
-
-
