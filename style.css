@@ -92,6 +92,7 @@ body {
 }
 
 button {
+  border: solid white;
   background: #3882f6;
   color: #e5e7eb;
   width: 120px;
@@ -191,4 +192,50 @@ a {
   margin-right: 100px;
   width: auto;
 }
+
+/* quote section complete */
+
+#sign-up {
+  padding: 75px 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-box {
+  background: #176efb;
+  flex: 1;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.text {
+  color: #E5E7EB;
+}
+
+.bold-text {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.plain-text {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+
+#footer {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#e5e7ebbd;
+  background-color: #1f2937;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
 
